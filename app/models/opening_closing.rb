@@ -1,0 +1,2 @@
+class OpeningClosing < ApplicationRecord
+end

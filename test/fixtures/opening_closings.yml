@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mo_opening: MyString
+  mo_closing: MyString
+  tu_opening: MyString
+  tu_closing: MyString
+  we_opening: MyString
+  we_closing: MyString
+  th_opening: MyString
+  th_closing: MyString
+  fr_opening: MyString
+  fr_closing: MyString
+  sa_opening: MyString
+  sa_closing: MyString
+  su_opening: MyString
+  sa_closing: MyString
+
+two:
+  mo_opening: MyString
+  mo_closing: MyString
+  tu_opening: MyString
+  tu_closing: MyString
+  we_opening: MyString
+  we_closing: MyString
+  th_opening: MyString
+  th_closing: MyString
+  fr_opening: MyString
+  fr_closing: MyString
+  sa_opening: MyString
+  sa_closing: MyString
+  su_opening: MyString
+  sa_closing: MyString
