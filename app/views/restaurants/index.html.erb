@@ -7,7 +7,7 @@
     <tr>
       <th>Name</th>
       <th>Pyszne address</th>
-      <th>Picture address</th>
+      <th>Picture</th>
       <th>Meal type</th>
       <th>City</th>
       <th>Street</th>
@@ -25,7 +25,7 @@
       <tr>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.pyszne_address %></td>
-        <td><%= restaurant.picture_address %></td>
+        <td><img src="http://<%= restaurant.picture_address %>"></td>
         <td><%= restaurant.meal_type %></td>
         <td><%= restaurant.city %></td>
         <td><%= restaurant.street %></td>

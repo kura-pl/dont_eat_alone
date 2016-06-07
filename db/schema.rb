@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160605222358) do
+ActiveRecord::Schema.define(version: 20160606215401) do
 
   create_table "opening_closings", force: :cascade do |t|
     t.string   "mo_opening"
@@ -28,8 +28,10 @@ ActiveRecord::Schema.define(version: 20160605222358) do
     t.string   "sa_closing"
     t.string   "su_opening"
     t.string   "su_closing"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "restaurant_id"
+    t.index ["restaurant_id"], name: "index_opening_closings_on_restaurant_id"
   end
 
   create_table "restaurants", force: :cascade do |t|
