@@ -56,7 +56,7 @@ Rails.application.configure do
       :port                 => 587,
       :domain               => "gmail.com",
       :user_name            => "dont.eat.alone.mailer@gmail.com",
-      :password             => "DontEatAlone123/",
+      :password             => ENV['mailer_password'],
       :authentication       => :login,
       :enable_starttls_auto => true
   }
